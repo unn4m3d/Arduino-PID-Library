@@ -9,6 +9,9 @@
   #include "Arduino.h"
 #elif defined(ARDUINO)
   #include "WProgram.h"
+#elif defined(RX_MISC)
+  #include <rx_misc.hpp>
+  using namespace rx;
 #endif
 
 #include <PID_v1.h>
